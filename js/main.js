@@ -1,4 +1,3 @@
-// Examples
 jQuery(document).ready(function(){
 	init();
 });

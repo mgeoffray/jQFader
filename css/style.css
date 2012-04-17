@@ -4,11 +4,13 @@ body{
     font:12px/1.55 "Arial",Helvetica, Arial, sans-serif;
     color:#0f0f0f;
     background:#fafafa;
+	margin:20px;
 }
 h2{
 	color:#333333;
-	margin-bottom:0;
-	font-size:17px;
+	margin:15px 0 25px 0;
+	font-size:30px;
+	font-weight:bold;
 }
 .item{
 	text-align:center;
@@ -22,37 +24,21 @@ h2{
 	font-size:15px;
 }
 .fader,.random,.reverse{display: none;}
-.restart{
+.button{
 	margin-top:20px;
-	background: -moz-linear-gradient(center top , #F5F5F5, #EAEAEA) repeat scroll 0 0 transparent;
-	background: -webkit-linear-gradient(center top , #F5F5F5, #EAEAEA) repeat scroll 0 0 transparent;
-	background: linear-gradient(center top , #F5F5F5, #EAEAEA) repeat scroll 0 0 transparent;
-	border: 1px solid #DBDBDB;
-	box-shadow: 0 0 6px rgba(15, 15, 15, 0.2);
-	color: #444444;
-	padding: 6px 10px;
+	padding:6px 10px;
+	border:1px solid #DBDBDB;
+	background:#F5F5F5;
+	filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#F5F5F5', endColorstr='#EAEAEA'); /* for IE */
+	background: -webkit-gradient(linear, left top, left bottom, from(#F5F5F5), to(#EAEAEA)); /* for webkit browsers */
+	background: -moz-linear-gradient(top,  #F5F5F5,  #EAEAEA); /* for firefox 3.6+ */
+	color:#444444;
+	box-shadow:0px 0px 6px rgba(15,15,15,0.2);
+	-moz-box-shadow:0px 0px 6px rgba(15,15,15,0.2);
+	-webkit-box-shadow:0px 0px 6px rgba(15,15,15,0.2);
 	text-decoration:none;
 	cursor:pointer;
+	font-size:12px;
 }
-
-.hidden       { display:block !important; border:0 !important; margin:0 !important; padding:0 !important; font-size:0 !important; line-height:0 !important; width:0 !important; height:0 !important; overflow:hidden !important; }
-.nobr         { white-space:nowrap !important; }
-.wrap         { white-space:normal !important; }
-.a-left       { text-align:left !important; }
-.a-center     { text-align:center !important; }
-.a-right      { text-align:right !important; }
-.v-top        { vertical-align:top; }
-.v-middle     { vertical-align:middle; }
-.f-left,
-.left         { float:left !important; }
-.f-right,
-.right        { float:right !important; }
-.f-none       { float:none !important; }
-.f-fix        { float:left; width:100%; }
 .no-display   { display:none; }
-.no-margin    { margin:0 !important; }
-.no-padding   { padding:0 !important; }
-.no-bg        { background:none !important; }
 .clearer      {clear:both; }
-.clearfix:after     { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
-.clearfix           { display: inline-block;}

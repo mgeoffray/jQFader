@@ -32,7 +32,6 @@
 
 	<div class="clearer"></div>
 	
-	<button class="restart no-display" href="#" onclick="javascript:restart(); return false;">Restart the demo</button>
-	
+	<button class="restart no-display button" onclick="javascript:restart(); return false;">Restart the demo</button>	
 </body>
 </html>
