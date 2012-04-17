@@ -1,4 +1,4 @@
-(function($) {
+(function($){
     $.fn.jqfader = function(options) {
 		// Default values
         var defaults = {
