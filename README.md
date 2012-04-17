@@ -2,26 +2,36 @@ jQFader v1.0
 ============
 
 
-Needs
------
+#### Needs
 jQuery library : http://jquery.com/
 
 	
-Use
----
-<pre><code>
+#### Use
+<pre>
 jQuery(".yourclass").jqfader();
-</code></pre>
+</pre>
 
 
-
-Parameters
-----------
-speed		number 			(default : 500)
-randomize	false|true		(default : false)
-reverse		false|true		(default : false)
-animate		number			(default : 500)
-callback	function		(default : void)
-
+####Parameters
+<table>
+  <tr>
+    <th>Name</th><th>Value</th><th>efault</th>
+  </tr>
+  <tr>
+    <td>speed</td><td>number</td><td>(default : 500)</td>
+  </tr>
+  <tr>
+    <td>randomize</td><td>false|true</td><td>(default : false)</td>
+  </tr>
+  <tr>
+    <td>reverse</td><td>false|true</td><td>(default : false)</td>
+  </tr>
+  <tr>
+    <td>animate</td><td>number</td><td>(default : 500)</td>
+  </tr>
+  <tr>
+    <td>callback</td><td>function</td><td>(default : void)</td>
+  </tr>
+</table>
 
 You can find a demo here : http://github.mgeoffray.fr/jQFader/
