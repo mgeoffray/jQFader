@@ -22,11 +22,8 @@ h2{
 	font-size:15px;
 }
 .fader,.random,.reverse{display: none;}
-.relaunch{
+.restart{
 	margin-top:20px;
-	-moz-transition: none 0s ease 0s;
-	-webkit-transition: none 0s ease 0s;
-	transition: none 0s ease 0s;
 	background: -moz-linear-gradient(center top , #F5F5F5, #EAEAEA) repeat scroll 0 0 transparent;
 	background: -webkit-linear-gradient(center top , #F5F5F5, #EAEAEA) repeat scroll 0 0 transparent;
 	background: linear-gradient(center top , #F5F5F5, #EAEAEA) repeat scroll 0 0 transparent;
