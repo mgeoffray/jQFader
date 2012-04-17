@@ -1,3 +1,10 @@
+/*
+ * jQFader by Matthéo Geoffray (mattheo.geoffray@gmail.com || http://mgeoffray.fr)
+ * http://git.mgeoffray.fr/jQFader/
+ * https://github.com/mgeoffray
+ *
+ * Version 1.0
+ */
 (function($){
     $.fn.jqfader = function(options) {
 		// Default values
