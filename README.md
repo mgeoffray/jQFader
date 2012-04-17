@@ -1,21 +1,20 @@
 jQFader v1.0
 ============
 
-
-#### Needs
+#### What you need
 jQuery library : http://jquery.com/
 
 	
-#### Use
-<pre>
+#### How to use it
+<code>
 jQuery(".yourclass").jqfader();
-</pre>
+</code>
 
 
 ####Parameters
 <table>
   <tr>
-    <th>Name</th><th>Value</th><th>efault</th>
+    <th>Name</th><th>Value</th><th>Default</th>
   </tr>
   <tr>
     <td>speed</td><td>number</td><td>(default : 500)</td>
@@ -33,5 +32,6 @@ jQuery(".yourclass").jqfader();
     <td>callback</td><td>function</td><td>(default : void)</td>
   </tr>
 </table>
+
 
 You can find a demo here : http://github.mgeoffray.fr/jQFader/
