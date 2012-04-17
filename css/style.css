@@ -1,32 +1,9 @@
 html,body,div,span,applet,object,iframe,h1,h2,h3,h4,h5,h6,p,blockquote,pre,a,abbr,acronym,address,big,cite,code,del,dfn,em,font,img,ins,kbd,q,s,samp,small,strike,strong,sub,sup,tt,var,dl,dt,dd,ol,ul,li,fieldset,form,label,legend,table,caption,tbody,tfoot,thead,tr,th,td{margin:0;padding:0;border:0;outline:0;font-weight:inherit;font-style:inherit;font-size:100%;font-family:inherit;vertical-align:baseline}:focus{outline:0}body{line-height:1;color:black;background:white}ol,ul{list-style:none}table{border-collapse:separate;border-spacing:0}caption,th,td{text-align:left;font-weight:normal}blockquote:before,blockquote:after,q:before,q:after{content:""}blockquote,q{quotes:"" ""}
 
-/* Global Styles ==========*/
 body{
     font:12px/1.55 "Arial",Helvetica, Arial, sans-serif;
     color:#0f0f0f;
     background:#fafafa;
-}
-
-
-/* Default element ============*/
-h2{
-    font-size:24px;
-    margin:5px 0 5px 0;
-    padding:0;
-    font-weight:bold;
-    color:#245484;
-}
-h3{
-    font-size:17px;
-    margin:5px 0 5px 0;
-    padding:0;
-    font-weight:bold;
-    color:#595959;
-}
-
-
-body{
-	font-family:"Arial";
 }
 h2{
 	color:#333333;
@@ -61,11 +38,6 @@ h2{
 	cursor:pointer;
 }
 
-
-/************************************************/
-/******************** Tools ********************/
-/************************************************/
-
 .hidden       { display:block !important; border:0 !important; margin:0 !important; padding:0 !important; font-size:0 !important; line-height:0 !important; width:0 !important; height:0 !important; overflow:hidden !important; }
 .nobr         { white-space:nowrap !important; }
 .wrap         { white-space:normal !important; }
@@ -85,9 +57,5 @@ h2{
 .no-padding   { padding:0 !important; }
 .no-bg        { background:none !important; }
 .clearer      {clear:both; }
-
-
-/* Clears ================================================================================ */
-
 .clearfix:after     { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
 .clearfix           { display: inline-block;}
