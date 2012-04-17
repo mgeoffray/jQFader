@@ -1,5 +1,5 @@
-VERSION 1
-=========
+jQFader v1.0
+============
 
 
 Needs
@@ -9,7 +9,10 @@ jQuery library : http://jquery.com/
 	
 Use
 ---
+<pre><code>
 jQuery(".yourclass").jqfader();
+</code></pre>
+
 
 
 Parameters
