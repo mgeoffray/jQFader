@@ -6,9 +6,9 @@ jQuery library : http://jquery.com/
 
 	
 #### How to use it
-<code>
+<pre>
 jQuery(".yourclass").jqfader();
-</code>
+</pre>
 
 
 ####Parameters
@@ -34,4 +34,4 @@ jQuery(".yourclass").jqfader();
 </table>
 
 
-You can find a demo here : http://github.mgeoffray.fr/jQFader/
+You can find a demo here : http://git.mgeoffray.fr/jQFader/
