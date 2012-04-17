@@ -10,5 +10,5 @@ function init(){
 	jQuery('.fader').jqfader({callback:showRestart});// Simple effect with callback
 }
 function showRestart(){
-	jQuery('.relaunch').fadeTo(300,1);
+	jQuery('.restart').fadeTo(300,1);
 }
