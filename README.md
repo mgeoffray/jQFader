@@ -10,7 +10,7 @@ jQuery library v1.4+ : http://jquery.com/
 jQuery(".yourclass").jqfader();
 </pre>
 <pre>
-.yourclass{ display:none; };
+.yourclass{ display:none; }
 </pre>
 
 
@@ -20,19 +20,19 @@ jQuery(".yourclass").jqfader();
     <th>Name</th><th>Value</th><th>Default</th>
   </tr>
   <tr>
-    <td>speed</td><td>number</td><td>(default : 500)</td>
+    <td>speed</td><td>number</td><td>500</td>
   </tr>
   <tr>
-    <td>randomize</td><td>false|true</td><td>(default : false)</td>
+    <td>randomize</td><td>false|true</td><td>false</td>
   </tr>
   <tr>
-    <td>reverse</td><td>false|true</td><td>(default : false)</td>
+    <td>reverse</td><td>false|true</td><td>false</td>
   </tr>
   <tr>
-    <td>animate</td><td>number</td><td>(default : 500)</td>
+    <td>animate</td><td>number</td><td>500</td>
   </tr>
   <tr>
-    <td>callback</td><td>function</td><td>(default : void)</td>
+    <td>callback</td><td>function</td><td>void</td>
   </tr>
 </table>
 
