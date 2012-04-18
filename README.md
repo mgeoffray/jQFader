@@ -37,4 +37,4 @@ jQuery(".yourclass").jqfader();
 </table>
 
 
-You can find a demo here : http://git.mgeoffray.fr/jQFader/
+You can find examples here : http://git.mgeoffray.fr/jQFader/
