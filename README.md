@@ -2,12 +2,15 @@ jQFader v1.0
 ============
 
 #### What you need
-jQuery library : http://jquery.com/
+jQuery library v1.4+ : http://jquery.com/
 
 	
 #### How to use it
 <pre>
 jQuery(".yourclass").jqfader();
+</pre>
+<pre>
+.yourclass{ display:none; };
 </pre>
 
 
