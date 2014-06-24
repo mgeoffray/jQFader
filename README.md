@@ -35,6 +35,3 @@ jQuery(".yourclass").jqfader();
     <td>callback</td><td>function</td><td>void</td>
   </tr>
 </table>
-
-
-You can find examples here : http://git.mgeoffray.fr/jQFader/
